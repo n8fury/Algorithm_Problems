@@ -22,14 +22,13 @@ After the array is sorted, we can use two pointers, one at the beginning of the 
 
 And if the summation of two pointed integers is less than our desired sum, we can move the pointer at the beginning to one position to the right. 
 
-The time complexity of these sorting algorithms is O(n log). After the sorted array, we have to iterate through the array once. Therefore, we can have the pair of numbers in O(n)time.
+The time complexity of these sorting algorithms is O(n log(n)). After the sorted array, we have to iterate through the array once. Therefore, we can have the pair of numbers in O(n)time.
 
 And as we have not used any extra space, space complexity will be O(1).
 # Solution #3
 
 A better way to solve this problem would be to throw a hashtable into the problem. As we know
-we can search through the hashtable for a number in constant time. As our desired sum is already given,we can 
-iterate through the array and check if the difference between the current number and the desired sum is in the hashtable. If it is present then we have  our pair and can return them. But if not,we can pass the current number to the hashtable.This way, we have to iterate through the array only once.
+we can search through the hashtable for a number in constant time. As our desired sum is already given,we can iterate through the array and check if the difference between the current number and the desired sum is in the hashtable. If it is present then we have  our pair and can return them. But if not,we can pass the current number to the hashtable.This way, we have to iterate through the array only once.
 
 Of course, it would mean extra space but our program will run faster than solution#1.
 
