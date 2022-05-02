@@ -8,6 +8,8 @@ def solution_3(array, sum):
 
     return "No two numbers add up to the target number"
 
+# Time complexity: O(n)|| space complexity: O(n)
+
 
 a = [-4, 5, 9, 15, 2, 1, 6, 4, 8, 11]
 b = 17
