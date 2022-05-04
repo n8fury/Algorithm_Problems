@@ -1,4 +1,6 @@
-# Problem Statement
+# Validate Subsequence
+
+##  <u><i><b>Problem Statement </b></i></u>
 
 The problem is Validating subsequences.
 We can call a sequence, a subsequence if it is a subset of another sequence and derived by deleting some of the members of the main sequence but keeping the order.
@@ -12,7 +14,7 @@ We can see that B is array which is formed by deleting some of the members of A 
 
 In the problem two non empty arrays will be given. we have to find out if the second array is a subsequence of the first array or not.
 
-# Solution
+## <u><i><b>Solution</b></i></u>
 
 To solve this problem we'll be using two pointers. one in the main array and one in the subsequence array. First, we'll find the first element of the subsequence array and it's index in the main array. After that, we'll traverse through the main array for the next element and so on , until we reach the end of the subsequence array. We'll start traversing from the index of the first element of the subsequence array because to find and validate the subsequence, order is important.
 

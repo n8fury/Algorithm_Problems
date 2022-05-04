@@ -10,6 +10,8 @@ def validate_subsequence(main_array, sub_array):
     else:
         return "Invalid subsequence"
 
+# Time complexity: O(n)|| space complexity: O(1)
+
 
 A = [0, 1, 5, 6, 8, 9, -1, -4, -7]
 B = [6, 8, 9, -1, -4, -8]

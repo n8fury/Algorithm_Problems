@@ -1,4 +1,4 @@
-# Description
+# Project Description
 
 This repository contains all the answers to Algoexpert's 160 coding interview questions.
 The purpose of this repository is to overcome my algorithmic problems.
@@ -11,3 +11,4 @@ I will use python as my preferable language, and answer of problems will be insi
 
 - [Two Numbers](https://github.com/n8fury/Algorithm_Problems/tree/master/01.two_numbers)
 - [Validate Subsequence](https://github.com/n8fury/Algorithm_Problems/tree/master/02.validate_subsequence)
+- [Sorted Squared Array](https://github.com/n8fury/Algorithm_Problems/tree/master/03.sorted_squared_array)
