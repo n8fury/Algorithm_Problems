@@ -1,6 +1,6 @@
 # Problem Statement
 
-This problem is Two numbers Sum.
+The problem is Two numbers Sum.
 In the problem an Array and an integer will be given.
 
 ```
