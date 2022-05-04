@@ -10,4 +10,4 @@ I will use python as my preferable language, and answer of problems will be insi
 ## Problem List
 
 - [Two Numbers](https://github.com/n8fury/Algorithm_Problems/tree/master/01.two_numbers)
-- [Valid Parentheses](https://github.com/n8fury/Algorithm_Problems/tree/master/02.validate_subsequence)
+- [Validate Subsequence](https://github.com/n8fury/Algorithm_Problems/tree/master/02.validate_subsequence)
