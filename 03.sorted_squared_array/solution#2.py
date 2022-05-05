@@ -15,6 +15,7 @@ def sorted_squared_array(array):
 
     return squared
 
+# Time complexity: O(n) || Space complexity: O(n)
 
 A = [-1, -2, -3, 4, 5, 6]
 print(sorted_squared_array(A))
