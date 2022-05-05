@@ -1,4 +1,4 @@
-def solution_3(array, sum):
+def two_numbers(array, sum):
     hashmap = {}  # declared hashmap as a python dictionary
     for num in array:
         if sum - num in hashmap:
@@ -13,4 +13,4 @@ def solution_3(array, sum):
 
 a = [-4, 5, 9, 15, 2, 1, 6, 4, 8, 11]
 b = 17
-print(solution_3(a, b))
+print(two_numbers(a, b))

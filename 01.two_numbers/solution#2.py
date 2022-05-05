@@ -1,4 +1,4 @@
-def solution_2(array, sum):
+def two_numbers(array, sum):
     array.sort()  # uses time sort. Time complexity O(n log(n))
     left_flag = 0
     right_flag = len(array) - 1
@@ -15,4 +15,4 @@ def solution_2(array, sum):
 
 a = [-4, 5, 9, 15, 2, 1, 6, 4, 8, 11]
 b = 17
-print(solution_2(a, b))
+print(two_numbers(a, b))

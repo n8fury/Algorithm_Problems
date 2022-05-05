@@ -1,4 +1,4 @@
-def solution_1(array, sum):
+def two_numbers(array, sum):
     for i in range(len(array)-1):
         first_num = array[i]
         for j in range(i+1, len(array)):
@@ -9,6 +9,7 @@ def solution_1(array, sum):
 
 # Time complexity: O(n^2)|| space complexity: O(1)
 
-a = [-4,5,9,15,2,1,6,4,8,11]
+
+a = [-4, 5, 9, 15, 2, 1, 6, 4, 8, 11]
 b = 17
-print(solution_1(a,b))
+print(two_numbers(a, b))
