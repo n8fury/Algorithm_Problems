@@ -32,7 +32,7 @@ And as we have not used any extra space, space complexity will be O(1).
 
 ## <u><i><b>Solution #3</b></i></u>
 
-A better way to solve this problem would be to throw a hashtable into the problem. As we know
+A better way to solve this problem would be to use a hashtable. As we know
 we can search through the hashtable for a number in constant time. As our desired sum is already given,we can iterate through the array and check if the difference between the current number and the desired sum is in the hashtable. If it is present then we have  our pair and can return them. But if not,we can pass the current number to the hashtable.This way, we have to iterate through the array only once.
 
 Of course, it would mean extra space but our program will run faster than solution#1.
@@ -40,3 +40,11 @@ Of course, it would mean extra space but our program will run faster than soluti
 As we have iterate through the array only once, time complexity for this solution will be O(n).
 
 And as we are only adding values to the hashtable, space complexity also will be O(n).
+
+## <u><i><b>Short Summary</b></i></u>
+
+| Solution | Solution Description |Time Complexity | Space Complexity |
+| :---: | :---: | :---: |:---: |
+| Solution #1 |Brute force(using two for loops)| O(n<sup>2</sup>) | O(1) |
+| Solution #2 |sorting the array, then go through each member and try to find if their consecutive difference with the target sum is present in the array|O(n log(n)) | O(1) |
+| Solution #3 |HASHTABLE|O(n) | O(n) |
