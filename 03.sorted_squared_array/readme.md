@@ -10,7 +10,7 @@ Input:[1,2,3,4,5] Output:[1,4,9,16,25]
 Input:[-1,-2,-3,-4,-5] Output:[1,4,9,16,25]
 ```
 
-In the problem a non-empty array will be provided.
+In the problem a non-empty array will be provided. We'll have to return a sorted array of squares of all the numbers of the given array.
 
 ## <u><i><b>Solution#1</b></i></u>
 
