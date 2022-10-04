@@ -18,3 +18,4 @@ The result array dictates the winner of the corresponding competition. 0 denotes
 We have to create a function which can determine the winner team from the given arrays.
 
 ## <u><i><b>Solution 1</b></i></u>
+
